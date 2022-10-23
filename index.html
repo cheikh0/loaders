@@ -1,0 +1,55 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>formulaire</title>
+            <style>
+            img{
+                width:300px;
+                height:200px;
+            }
+            .contenu{
+                background-color:black;
+                text-align:center;
+                width:400px;
+                height:500px;
+            }
+            input{
+                border-left:white;
+                border-right:white;
+                border-image-repeat: white;
+            }
+            </style>
+        </head>
+        <body style="background-color:black; text-align:center;">
+            <div class="contenu"><br>
+                <div style="background-color: white;">
+                <img src="1-.jpg">
+                <div><br>
+                    <form action="page-traitement de données"method="post">
+                        <div class="prénom" style="background-color: white;">
+                            <label for="name">prénom<span style="color:red;">*</span></label><br><br>
+                            <input id="name" type="text" placeholder="votre prénom"><br><br>
+                        </div><br>
+                        <div class="name" style="background-color:white;">
+                            <label for="name">Nom<span style="color:red">*</span></label><br><br>
+                            <input id="Name" type="text" placeholder="votre nom"><br>
+                        </div><br>
+                        <div class="mail" style="background-color:white;">
+                            <label for="mail">Adress mail<span style="color:red">*</span><br>
+                                <pre style="font: size 9px;">tout mail non institutionnel ne sera pas prit en compte</pre></label><br><br>
+                                <input type="text" placeholder="votre e-mail"><br><br>
+                        </div><br>
+                        <div class="number" style="background-color:white;">
+                            <label for="Number">Numero de téléphone watshapp<span style="color:red;">*</span></label>
+                        </div><br>
+                        <div>
+                        <input type="text" placeholder="votre numéro"><br>
+                        </div><br><br>
+                        <div>
+                            <input type="submit" name="envoyer" value="envoyer" style="background-color:red;">
+                            <input type="reset" name="reset" value="effacer" style="color:red;">
+                        </div>
+                        <br>
+                    </form>
+        </body>
+    </html>
